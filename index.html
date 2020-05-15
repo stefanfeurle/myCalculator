@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style_index.css" type="text/css" rel="stylesheet">
+        <script src="js_index.js"></script>
+        <title>Calculator</title>        
+    </head>
+    <body>        
+        <div class="calculator">
+            <div id="name">MyCalculator</div>
+            <div id="calculation">0</div>
+            <div id="calcOutput">0</div>
+            <div>
+                <div class = row>
+                    <button type="button" onclick="inputNum('1')">1</button>
+                    <button type="button" onclick="inputNum('2')">2</button>
+                    <button type="button" onclick="inputNum('3')">3</button>
+                    <button type="button" onclick="inputOperator('add')">+</button>
+                </div>
+                <div class = row>            
+                    <button type="button" onclick="inputNum('4')">4</button>
+                    <button type="button" onclick="inputNum('5')">5</button>
+                    <button type="button" onclick="inputNum('6')">6</button>
+                    <button type="button" onclick="inputOperator('subtract')">-</button>
+                </div>
+                <div class = row> 
+                    <button type="button" onclick="inputNum('7')">7</button>
+                    <button type="button" onclick="inputNum('8')">8</button>
+                    <button type="button" onclick="inputNum('9')">9</button>
+                    <button type="button" onclick="inputOperator('multiply')">x</button>
+                </div>
+                <div class = row> 
+                    <button type="button" onclick="inputNum('0')">0</button>
+                    <button type="button" onclick="inputPoint()">.</button>
+                    <button type="button" onclick="inputOn()">C</button>
+                    <button type="button" onclick="inputOperator('divide')">/</button>
+                </div>
+                <div class = row> 
+                    <button type="button" onclick="getResult()">=</button> 
+                </div>
+            </div>
+        </div>        
+    </body>
+</html>
